@@ -4,6 +4,12 @@
 
 This is a snowpack template project setup with MDX Chakra-ui and React Router v6. Its quite opinionated, but in a good way.
 
+## Install
+
+Run the following command, replacing `my-new-app` with the name of your new app.
+
+`npx create-snowpack-app my-new-app --template snowpack-mdx-chakra --use-yarn`
+
 ## Project structure
 
 Your pages live inside the pages directory, they are just mdx files. Your components live inside (you guessed it) a components directory.
