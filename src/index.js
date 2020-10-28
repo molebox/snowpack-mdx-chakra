@@ -14,8 +14,9 @@ import {
   Image,
 } from '@chakra-ui/core';
 import theme from './theme';
-import { MDXRoutes } from './components/mdx-routes.jsx';
+import { MDXRoutes } from './components/mdx-routes.js';
 import MDXLayout from './components/mdx-layout';
+import Emoji from './components/emoji';
 
 const components = {
   wrapper: (props) => <MDXLayout {...props}>{props.children}</MDXLayout>,
@@ -59,6 +60,7 @@ const components = {
   Image,
   SimpleGrid,
   Stack,
+  Emoji
 };
 
 ReactDOM.render(
@@ -77,4 +79,5 @@ ReactDOM.render(
 if (import.meta.hot) {
   import.meta.hot.accept();
 }
+
 

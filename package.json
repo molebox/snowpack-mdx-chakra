@@ -1,6 +1,15 @@
 {
+  "name": "snowpack-mdx-chakra",
+  "version": "0.0.3",
+  "keywords": [
+    "csa-template",
+    "react",
+    "mdx",
+    "snowpack",
+    "chakra-ui"
+  ],
   "scripts": {
-    "start": "snowpack dev",
+    "dev": "snowpack dev",
     "build": "snowpack build",
     "test": "web-test-runner \"src/**/*.test.jsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
