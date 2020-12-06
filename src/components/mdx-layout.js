@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "@chakra-ui/core";
+import { Box } from "@chakra-ui/react";
 
 /**
  * The base layout for the MDX pages. You can configure this to set how your pages layout should be.

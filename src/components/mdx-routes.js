@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Link, Heading, Spacer, Text, CSSReset } from '@chakra-ui/core';
+import { Flex, Link, Heading, Spacer, Text, CSSReset } from '@chakra-ui/react';
 import {
   Link as ReactRouterLink,
   BrowserRouter as Router,

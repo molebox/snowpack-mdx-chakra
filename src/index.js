@@ -12,7 +12,7 @@ import {
   ChakraProvider,
   Link,
   Image,
-} from '@chakra-ui/core';
+} from '@chakra-ui/react';
 import theme from './theme';
 import { MDXRoutes } from './components/mdx-routes.js';
 import MDXLayout from './components/mdx-layout';
